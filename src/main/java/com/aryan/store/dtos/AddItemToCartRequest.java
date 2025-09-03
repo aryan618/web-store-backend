@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class UpdateUserRequest {
-    String name;
-    String email;
+public class AddItemToCartRequest {
+
+    Long id;
 }
